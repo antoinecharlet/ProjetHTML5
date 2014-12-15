@@ -15,3 +15,19 @@ and open the template in the editor.
     margin-top: 50px;
     margin: 0 auto;
 }
+
+body {
+    background: linear-gradient(black, pink)no-repeat center fixed;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: auto;
+    height: 100%;
+    min-height: 100%;
+     margin:0;
+    padding:0;
+    background-size: cover; /* le degradé couvre toute la page */
+    text-rendering: optimizeLegibility
+}
