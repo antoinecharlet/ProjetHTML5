@@ -13,11 +13,12 @@ if(monCanvas.getContext){
 var ctx = monCanvas.getContext('2d');
 
 monCanvas.width=640;
-monCanvas.height=480;
+monCanvas.height=680;
 ctx.fillStyle="#0000FF";
-ctx.fillRect(0,0,640,480);
+ctx.fillRect(0,0,640,680);
 ctx.fillStyle="#FFFFFF";
 ctx.save();
 
-    
+      
+        
 }
