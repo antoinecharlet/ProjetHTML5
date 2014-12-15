@@ -9,16 +9,20 @@
 
 var monCanvas = document.getElementById('Dessin');
 
-if(monCanvas.getContext){
-var ctx = monCanvas.getContext('2d');
+if (monCanvas.getContext) {
+    var ctx = monCanvas.getContext('2d');
 
-monCanvas.width=640;
-monCanvas.height=680;
-ctx.fillStyle="#0000FF";
-ctx.fillRect(0,0,640,680);
-ctx.fillStyle="#FFFFFF";
-ctx.save();
+    
+    monCanvas.width = 400;
+    monCanvas.height = 600;
+    ctx.fillStyle = "#000000";
+ 
+    ctx.fillStyle = "#0000FF";
+    ctx.fillRect(0, 0, 400, 600);
 
-      
-        
+    ctx.fill();
+
+
+
+
 }
