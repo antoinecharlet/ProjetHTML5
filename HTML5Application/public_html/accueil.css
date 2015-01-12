@@ -36,6 +36,7 @@ body {
 }
 
 div.wrapper {
+    
     margin: 20px auto;
     width: 350px;
 }
@@ -78,7 +79,7 @@ nav.vertical > ul > li > a /*couleur menu*/{
     line-height: 50px;
     text-shadow: 0 1px 1px rgba(0,0,0,.1);
     text-transform: uppercase;
-    //transition: all 1s linear;
+    //transition: all 0s linear;
 }
 
 nav.vertical > ul > li > label:hover,
@@ -97,11 +98,15 @@ nav.vertical > ul > li > div {
     background-color: rgb(255,255,255);
     max-height: 0;
     overflow: hidden;
-    transition: all 1s linear;
+    transition: all 0.4s linear;
 }
 
 nav.vertical > ul > li > label + input:checked + div {
     max-height: 500px;
+}
+
+nav.vertical > ul > li > label + input:unchecked + div {
+    max-height:0px;
 }
 
 nav.vertical > ul > li > div > ul {
@@ -119,9 +124,6 @@ nav.vertical > ul > li > div > ul > li > a {
     transition: all 0.2s linear;
 }
 
-/*MenuJouer.home{
-    background-color: yellow;
-}*/
 /*sous menu (au passage souris)*/
 nav.vertical > ul > li > div > ul > li:hover > a {
     background-color: lightcoral;
