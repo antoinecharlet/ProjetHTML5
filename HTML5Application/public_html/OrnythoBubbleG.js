@@ -19,10 +19,30 @@ if (monCanvas.getContext) {
  
     ctx.fillStyle = "#0000FF";
     ctx.fillRect(0, 0, 400, 600);
+  
+ 
 
-    ctx.fill();
+    monCanvas.addEventListener("mouseup", circle); 
 
 
+}
+var tableaucercle = new Array();
+
+tableaucercle[0]= circle();
 
 
+function circle()
+{
+    
+    
+  ctx.beginPath();
+  ctx.lineWidth="2";
+  ctx.arc(200, 600, 10, 0, 2 * Math.PI);
+  ctx.stroke();
+}
+
+function deplacementboule()
+{
+    
+    
 }
