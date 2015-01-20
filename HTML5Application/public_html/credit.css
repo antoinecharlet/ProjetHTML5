@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 janv. 2015, 16:44:35
+    Author     : antoine
+*/
+.titre{
+    display: block;    
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#vid1{
+    display: block;    
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#p{
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(black, pink)no-repeat center fixed;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-size: cover; /* le degradé couvre toute la page */
+    text-rendering: optimizeLegibility
+}

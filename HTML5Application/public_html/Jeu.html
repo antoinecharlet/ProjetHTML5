@@ -6,17 +6,42 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="jeu.css" media="all"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+        <link rel="stylesheet" href="jeu.css" /> 
+        <style>
 
-        <canvas ID="Dessin"   ></canvas>        
-        <script type="text/javascript" src="OrnythoBubbleG.js"></script>
-        
-        
-        
+
+
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <img class=titre src="titre.png" alt="NOM" />
+        </header>
+        <div id="cadre">
+            <div id="menu_gauche">
+                <div id="bouton1" ><a href="accueil.html">Accueil</a></div>			
+                <div id="titre">Score: <div id="score" style="text-decoration:none;"></div></div>
+                <div id='toutbouton'><div id="bouton1" ><a href="jeu.html">Restart</a></div>
+
+
+                <button id=button type='button' onClick = "Jouerlvl1()">Niveau 1</button>
+                <button id=button type='button' onClick = "Jouerlvl2()">Niveau 2</button>
+                <button id=button type='button' onClick = "Jouerlvl3()">Niveau 3</button>
+                </div>
+
+            </div>
+            <canvas id=dessin width=400 height=400></canvas>
+            <audio controls="controls">
+                <source src="bubble.mp3" type="audio/mp3" />
+            </audio>
+
+
+        </div>
+
+
     </body>
+    <script type="text/javascript" src="OrnythoBubbleG.js"></script>
 </html>

@@ -8,9 +8,8 @@ and open the template in the editor.
     Author     : remy
 */
 
-
 #Dessin{
-    
+
     display: block;
     margin-top:50px;
     margin: 0 auto;
@@ -18,8 +17,96 @@ and open the template in the editor.
 
 body {
     background: linear-gradient(black, pink)no-repeat center fixed;
-
     background-size: cover; /* le degradé couvre toute la page */
+}
 
+#bouton1 {
+    -moz-box-shadow: 0px 0px 0px 2px #e62052;
+    -webkit-box-shadow: 0px 0px 0px 2px #e62052;
+    box-shadow: 0px 0px 0px 2px #e62052;
+    background-color:#f00943;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:1px solid #eb1111;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #fa2359;
+}
+#bouton1:hover {
+    background-color:#e0164f;
+}
+#bouton1:active {
+    position:relative;
+    top:1px;
+}#dessin{
 
+    display: block;    
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.titre{
+    display: block;    
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#button {
+    -moz-box-shadow: 0px 0px 0px 2px blueviolet;
+    -webkit-box-shadow: 0px 0px 0px 2px blue;
+    box-shadow: 0px 2px 0px 2px blueviolet;
+    background-color:blueviolet;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:1px solid blueviolet;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px blue;
+}
+#button:hover {
+    background-color:blueviolet;
+}
+#button:active {
+    position:relative;
+    top:1px;
+}
+
+#toutbouton{
+    display:inline-block; 
+    vertical-align: top;
+    /*
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px; */   
+}
+#titre{
+    color:#ffffff;
+    font-family:arial;
+    font-size:30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+#score{
+    color:#ffffff;
+    font-family:arial;
+    font-size:30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }

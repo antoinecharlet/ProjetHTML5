@@ -15,6 +15,20 @@ and open the template in the editor.
     margin-bottom: 25px;
 }
 
+#banane{   
+    display: inline-block;
+}
+
+#banane2{
+    display:inline-block;
+    margin-left:70px;
+}
+
+#main{
+    margin-left: 160px;
+    display: inline-block;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,9 +49,8 @@ body {
     text-rendering: optimizeLegibility
 }
 
-div.wrapper {
-    
-    margin: 20px auto;
+div.wrapper {    
+    margin: 0 auto;
     width: 350px;
 }
 
